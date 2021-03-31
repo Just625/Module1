@@ -11,13 +11,15 @@
 
 //Cau 2:
 // function tryRemoveFromArray(arr,x){
+//     let newArr=[]
 //     for(let i =0; i<arr.length;i++){
-//         if(arr[i]==x){
-//             arr.splice(i,1);
+//         if(arr[i]!=x){
+//             newArr.push(arr[i])
 //         }
 //     }
-//     return arr;
+//     return newArr;
 // }
+
 
 //Cau 3:
 // function isFibonacci(numb){
