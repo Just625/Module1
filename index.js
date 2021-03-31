@@ -11,33 +11,29 @@
 
 //Cau 2:
 // function tryRemoveFromArray(arr,x){
-//     let newArr = []
 //     for(let i =0; i<arr.length;i++){
-//         if(arr[i]!=x){
-//             newArr.push(arr[i]);
+//         if(arr[i]==x){
+//             arr.splice(i,1);
 //         }
 //     }
-//     return newArr;
+//     return arr;
 // }
 
 //Cau 3:
-function isFibonacci(numb){
-    let fibonArr = [0,1,1];
-    for(let i =0;i<10000;i++){
-        let temp = fibonArr[fibonArr.length-1] +fibonArr[fibonArr.length-2];
-        fibonArr.push(temp);
-    }
-    let rightNumberCheck = false;
-    for(let j =0; j<fibonArr.length;j++){
-        if(numb == fibonArr[j]){
-            rightNumberCheck = true;
-        }
-    }
-    return rightNumberCheck;
-}
-let a = isFibonacci(20);
-console.log(a);
-
+// function isFibonacci(numb){
+//     let fibonArr = [0,1,1];
+//     for(let i =0;i<numb;i++){
+//         let temp = fibonArr[fibonArr.length-1] +fibonArr[fibonArr.length-2];
+//         fibonArr.push(temp);
+//     }
+//     let numberChecked = false;
+//     for(let j =0; j<fibonArr.length;j++){
+//         if(numb == fibonArr[j]){
+//             numberChecked = true;
+//         }
+//     }
+//     return numberChecked;
+// }
 
 //Cau 4:
 // class Circle{
